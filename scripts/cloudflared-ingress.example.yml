@@ -1,0 +1,8 @@
+# Example only — replace the UUID, Windows path and hostname with your own.
+# Cloudflare Access MUST protect this published hostname first.
+tunnel: 11111111-2222-3333-4444-555555555555
+credentials-file: C:\Users\YOUR_WINDOWS_USER\.cloudflared\11111111-2222-3333-4444-555555555555.json
+ingress:
+  - hostname: edit.example.com
+    service: http://127.0.0.1:8000
+  - service: http_status:404

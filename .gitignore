@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+backend/data/
+__pycache__/
+.pytest_cache/
+
+# Never commit locally managed Cloudflare credentials or tunnel secrets.
+.cloudflared/
+scripts/cloudflared.yml
